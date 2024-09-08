@@ -1,0 +1,44 @@
+[33m25412bd[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m background color
+[33m3fc37c2[m test
+[33m7fb369c[m july181248am
+[33mec00cef[m edit
+[33me98592a[m first commit
+[33md0d9d46[m Migration from SASS kit #15
+[33m7a2940a[m Update README.md
+[33m3b2249c[m Merge branch 'main' of https://github.com/CodeStitchOfficial/Intermediate-Website-Kit-LESS
+[33m2e84412[m copying changes from #13 in the SASS kit
+[33m93a709e[m Update dead link in footer.html
+[33meae8ad8[m added home page to sitemap
+[33m3bf9be9[m added functionality to close nav when pseudoelement is clicked
+[33m15acce5[m a18y changes to nav
+[33mf83e399[m Update server.js
+[33m38ab0ba[m June24 (#7)
+[33m9c9b7f2[m changed scaling at 3000px devices
+[33m3c5e393[m added year shortcode
+[33m22f9a31[m Update server.js
+[33mb490b47[m Merge branch 'main' of https://github.com/CodeStitchOfficial/Intermediate-Website-Kit-LESS
+[33m06b9a6d[m updating syntax and removing button height
+[33m1ed74a0[m Update root.less
+[33m75d1a5b[m removing JS bundling
+[33m6eb5331[m fixed css files appearing in sitemap
+[33mc8098cd[m Update README.md
+[33m5bac192[m Update package.json
+[33m4cba510[m Update package.json
+[33mf0c21f7[m transferring changes from SASS kit
+[33m0503782[m Update config.yml
+[33m3b51560[m Update config.yml
+[33mdd52c17[m Update package.json
+[33ma0e38ad[m Update README.md
+[33m318ec14[m Update README.md
+[33m43cb7d7[m Update README.md
+[33mbb9b03c[m Update README.md
+[33m7f47fe1[m changing dark mode toggle location
+[33m8e34909[m Merge pull request #1 from CodeStitchOfficial/update-1
+[33m44a9e99[m changing line-heights
+[33mbbeb807[m upgrading to Decap 3.0
+[33m85762fb[m adjusting css location in /public
+[33m0a3d980[m removing the depreciated netlify asset optimisation
+[33mcdb3fb3[m changing LESS property order and HTML comments to Nunjucks comments
+[33m67eec62[m fixed trailing / bug on admin page
+[33m3ed270e[m Update root.less
+[33m97904b0[m initial commit
