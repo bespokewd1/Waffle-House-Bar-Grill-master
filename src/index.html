@@ -12,6 +12,16 @@ eleventyNavigation:
 {% extends "layouts/base.html" %} {% block head %}
 <link rel="stylesheet" href="/assets/css/local.css" />
 <link rel="stylesheet" href="/assets/css/critical.css" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XEEN4SD66T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XEEN4SD66T');
+</script>
+
 
 <!-- Script for Netlify Identity -->
 <script
@@ -38,15 +48,13 @@ eleventyNavigation:
   <div class="cs-container">
     <div class="cs-content">
       <h2 class="cs-title">
-        <span class="cs-color">Discover the tastiest waffle and steak</span>
-        combo in town!
+        <span class="cs-color">The Best Waffle and Steak Combo</span>
+        in Town!
       </h2>
       <p class="cs-text">
-        It is classic comfort meets culinary delight in a warm, inviting
-        atmosphere, perfect for family breakfasts, casual lunches, and evening
-        gatherings with friends.
+        A Delicious Fusion of Asian & Western Flavors with Our Signature Waffle and Steak Combo!
       </p>
-      <a href="/contact" class="cs-button-solid">Contact Us</a>
+      <a href="/contact" class="cs-button-solid">Order Online (Coming Soon)</a>
       <a href="/menu" class="cs-button-transparent">MENU</a>
       <!-- <span class="cs-header">Trusted by:</span> -->
       <div class="cs-logo-group">
@@ -224,8 +232,64 @@ Highly recommend to try out there Friday steak nights                </p>
             </li>
         </ul>
     </div>
+    <br>
+   
+  <div class="button-container">
+    <a href="https://maps.app.goo.gl/pZwPPJHHZWUTvMvr9" class="cs-button-5">Read More Reviews</a>
+</div>                     
 </section>
 
+
+<!-- ============================================ -->
+<!--                Meet The Team                 -->
+<!-- ============================================ -->
+
+<section id="meet-us-1020">
+  <div class="cs-container">
+      <div class="cs-content">
+          <img class="cs-graphic" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/Ornament.svg" alt="chef" width="456" height="31">
+          <h2 class="cs-title">Our Special Promo</h2>
+          <p class="cs-text">
+          </p>
+      </div>
+      <ul class="cs-card-group">
+          <li class="cs-item">
+              <picture class="cs-picture">
+                  <source media="(max-width: 767px)" srcset="/assets/images/specialpromo2.png">
+                  <source media="(min-width: 768px)" srcset="/assets/images/specialpromo2.png">
+                  <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/specialpromo2.png" alt="chef" width="305" height="335">
+              </picture>
+              <div class="cs-info">
+                  <span class="cs-name">Friday Steak Night</span>
+                
+              </div>
+          </li>
+          <li class="cs-item">
+              <picture class="cs-picture">
+                  <source media="(max-width: 767px)" srcset="/assets/images/specialpromo1.png">
+                  <source media="(min-width: 768px)" srcset="/assets/images/specialpromo1.png">
+                  <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/specialpromo1.png" alt="chef" width="305" height="335">
+              </picture>
+              <div class="cs-info">
+                  <span class="cs-name">Saturday BBQ Night</span>
+                 
+              </div>
+          </li>
+          <li class="cs-item">
+              <picture class="cs-picture">
+                  <source media="(max-width: 767px)" srcset="/assets/images/specialpromo3.png">
+                  <source media="(min-width: 768px)" srcset="/assets/images/specialpromo3.png">
+                  <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/specialpromo3.png" alt="chef" width="305" height="335">
+              </picture>
+              <div class="cs-info">
+                  <span class="cs-name">Sunday Brunch</span>
+               
+              </div>
+          </li>
+      </ul>
+  </div>
+</section>
+                              
 
 
 {% endblock %}
