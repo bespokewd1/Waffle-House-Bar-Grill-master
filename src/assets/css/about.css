@@ -113,7 +113,8 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   #sbs-1014 {
-    padding: 10%;
+    padding: var(--sectionPadding);
+    margin-top: clamp(5rem, 0vh, 0rem);
     background-color: #FFB200;
   }
   #sbs-1014 .cs-container {
@@ -155,8 +156,9 @@
     margin: 0 0 2rem 0;
     /* 16px - 32px */
     padding: clamp(1rem, 3vw, 2rem);
-    background-color: #1a1a1a;
+    background-color: #EB5B00;
     position: relative;
+    border-radius: 3rem;
   }
   #sbs-1014 .cs-quote-text {
     /* 14px - 16px */
@@ -465,7 +467,7 @@
   }
   #why-choose-12 .cs-title {
     font-size: var(--headerFontSize);
-    font-weight: 900;
+    font-weight: 400;
     line-height: 1.2em;
     text-align: inherit;
     max-width: 43.75rem;
@@ -546,7 +548,7 @@
     min-width: 9.375rem;
     padding: 0 1.5rem;
     background-color: #EB5B00;
-    border-radius: 0.25rem;
+    border-radius: 3rem;
     display: inline-block;
     position: relative;
     z-index: 1;

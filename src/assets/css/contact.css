@@ -4,7 +4,8 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   #contact-1879 {
-    padding: 10%;
+    padding: var(--sectionPadding);
+    margin-top: clamp(5rem, 0vh, 0rem);
     background-color: #FAF6F2;
     overflow: hidden;
     position: relative;

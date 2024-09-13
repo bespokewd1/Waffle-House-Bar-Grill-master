@@ -57,9 +57,10 @@ eleventyNavigation:
       </h2>
       
       <p class="cs-text">
-        A Delicious Fusion of Asian & Western Flavors with Our Signature Waffle and Steak Combo!
+        A Delicious Fusion of Asian & Western Flavors with Our Signature Waffle and Steak Combo! Indulge in a mouthwatering blend of savory and sweet that’s perfect for any time of day. Whether you're craving a hearty breakfast or a satisfying dinner, our waffle and steak combo will take your taste buds on an unforgettable journey!
       </p>
-      <a href="/contact" class="cs-button-solid">Order Online (Coming Soon)</a>
+      <a href="/contact" class="cs-button-solid">See Our Menu</a>
+      <a class="cs-button-soon">ORDER SOON</a>
    
       <!-- <span class="cs-header">Trusted by:</span> -->
       <div class="cs-logo-group">
@@ -105,23 +106,23 @@ eleventyNavigation:
       <picture class="cs-background">
         <source
           media="(max-width: 600px)"
-          srcset="/assets/images/landing-page-waffle.jpg"
+          srcset="/assets/images/waffelnobackground.png"
         />
         <source
           media="(min-width: 601px)"
-          srcset="/assets/images/landing-page-waffle.jpg"
+          srcset="/assets/images/waffelnobackground.png"
         />
         <img
           loading="lazy"
           decoding="async"
-          src="/assets/images/landing-page-waffle.jpg"
+          src="/assets/images/waffelnobackground.png"
           alt="leaves"
           width="842"
           height="737"
           aria-hidden="true"
         />
       </picture>
-      <div class="cs-stat-box">
+      <!-- <div class="cs-stat-box">
         <span class="cs-stat">
           <b> 263</b>
           <span class="cs-desc">Happy Families</span>
@@ -132,46 +133,13 @@ eleventyNavigation:
           <b>5/5</b>
           <span class="cs-desc">Google Rating</span>
         </span>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
 
                                 
-<!-- ============================================ -->
-<!--                    Map                       -->
-<!-- ============================================ -->
 
-<section id="map-1834">
-  <img
-    class="cs-icon"
-    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/brown-pin.svg"
-    alt="icon"
-    decoding="async"
-    width="52"
-    height="52"
-    aria-hidden="true"
-  />
-  <div class="cs-background">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9477.90620116487!2d-113.3224946!3d53.5671111!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a03dba437d93c9%3A0x6b7edeb3a43f522b!2sWaffle%20House%20Bar%20%26%20Grill!5e0!3m2!1sen!2sph!4v1721200089085!5m2!1sen!2sph"
-      width="800"
-      height="600"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-    ></iframe>
-  </div>
-  <div class="cs-container">
-    <ul class="cs-card-group">
-      <li class="cs-item">
-        <h2 class="cs-h2">Waffle House Bar & Grill</h2>
-        <span class="cs-item-text"> 26 Strathmoor Dr, Sherwood Park, AB T8H 2B6, Canada </span>
-      </li>
-    </ul>
-  </div>
-</section>
 
 <!-- ============================================ -->
 <!--                  Reviews                     -->
@@ -297,7 +265,42 @@ Highly recommend to try out there Friday steak nights                </p>
       </ul>
   </div>
 </section>
-                              
+                     
+
+<!-- ============================================ -->
+<!--                    Map                       -->
+<!-- ============================================ -->
+
+<section id="map-1834">
+  <img
+    class="cs-icon"
+    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/brown-pin.svg"
+    alt="icon"
+    decoding="async"
+    width="52"
+    height="52"
+    aria-hidden="true"
+  />
+  <div class="cs-background">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9477.90620116487!2d-113.3224946!3d53.5671111!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a03dba437d93c9%3A0x6b7edeb3a43f522b!2sWaffle%20House%20Bar%20%26%20Grill!5e0!3m2!1sen!2sph!4v1721200089085!5m2!1sen!2sph"
+      width="800"
+      height="600"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+  <div class="cs-container">
+    <ul class="cs-card-group">
+      <li class="cs-item">
+        <h2 class="cs-h2">Waffle House Bar & Grill</h2>
+        <span class="cs-item-text"> 26 Strathmoor Dr, Sherwood Park, AB T8H 2B6, Canada </span>
+      </li>
+    </ul>
+  </div>
+</section>
 
 
 {% endblock %}
